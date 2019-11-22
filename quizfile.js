@@ -29,31 +29,37 @@ if (result[0] === 'Orange' && result[1] === 'Chonky') {
   var image = document.createElement('img');
   image.setAttribute('src','chonkorange.jpg');
   document.body.appendChild(image);
-  resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
+  alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
+  resultsContainer.innerHTML = `Hi, ${getFormData()} Here is your cat ${image}`
 } else if (result[0] === 'Orange' && result[1] === 'Smol') {
   var image = document.createElement('img');
   image.setAttribute('src','Munchkin-Cat.jpg');
   document.body.appendChild(image);
+  alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
   resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
 } else if (result[0] === 'Grey' && result[1] === 'Chonky') {
   var image = document.createElement('img');
   image.setAttribute('src','chonkygrey.jpeg');
   document.body.appendChild(image);
+  alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
   resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
 } else if (result[0] === 'Grey' && result[1] === 'Smol') {
   var image = document.createElement('img');
   image.setAttribute('src','smolgrey.jpg');
   document.body.appendChild(image);
+  alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
   resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
 } else if (result[0] === 'White' && result[1] === 'Smol') {
   var image = document.createElement('img');
   image.setAttribute('src','smolwhite.jpg');
   document.body.appendChild(image);
+  alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
   resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
 }  else if (result[0] === 'White' && result[1] === 'Chonky') {
   var image = document.createElement('img');
   image.setAttribute('src','chonkywhite.jpg');
   document.body.appendChild(image);
+  alert(`Hi, ${getFormData()} Your cat is ready. Scroll down & pick it up below, meow!`)
   resultsContainer.innerHTML = `Hi, ${getFormData()} Your cat is ready ${image}`
 }
 }
