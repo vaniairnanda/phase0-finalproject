@@ -4,7 +4,6 @@ const submitButton = document.getElementById('submit');
 
 function getFormData(){ 
     var name=document.getElementById('name').value;
-
     return name
     }
 
